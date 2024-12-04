@@ -1,0 +1,9 @@
+{
+"manufacturer_name" : "Ford",
+"description" : "fast",
+"horse_power" : 10000,
+"model_name" :"retro",
+"model_year" : 2000,
+"purchase_price": 900000,
+"fuel_type" : "Gasoline"
+}
