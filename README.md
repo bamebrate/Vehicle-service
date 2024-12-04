@@ -45,16 +45,7 @@ npm install
 ```
 
 ### 3. Configure the Environment
-- Create a `env.json` file in the root directory with the following structure:
-  ```json
-  {
-      "user": "your_db_username",
-      "password": "your_db_password",
-      "database": "vehicle_service",
-      "host": "localhost",
-      "port": 5432
-  }
-  ```
+- Edit the existing `env.json` file in the root directory with your own postgress credentials:
 
 ### 4. Setup the Database
 Run the SQL script to create the necessary table:
@@ -90,12 +81,12 @@ npm test
 - **Request Body**:
   ```json
   {
-      "manufacturer_name": "Toyota",
+      "manufacturer_name": "Ford",
       "description": "Reliable car",
-      "horse_power": 120,
-      "model_name": "Corolla",
+      "horse_power": 1200,
+      "model_name": "retro",
       "model_year": 2020,
-      "purchase_price": 20000,
+      "purchase_price": 200000,
       "fuel_type": "Gasoline"
   }
   ```

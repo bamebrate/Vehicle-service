@@ -16,12 +16,12 @@ afterAll(async () => {
 
 describe("Vehicle Service API Tests", () => {
     const testVehicle = {
-        manufacturer_name: "Toyota",
+        manufacturer_name: "Ford",
         description: "Reliable and efficient",
-        horse_power: 120,
-        model_name: "Corolla",
+        horse_power: 1000,
+        model_name: "retro",
         model_year: 2020,
-        purchase_price: 20000,
+        purchase_price: 200000,
         fuel_type: "Gasoline",
     };
 
